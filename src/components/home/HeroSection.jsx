@@ -43,7 +43,7 @@ export default function HeroSection() {
       {homeData?.heroType !== "slider" && (
         <div className="mx-auto max-w-[1280px]">
           <div className="absolute inset-0 bg-gradient-to-r from-[#00215B] via-[rgba(0,33,91,0.75)] to-transparent" />
-          <div className="absolute top-[30%] z-10 space-y-10 px-5 text-left md:px-8 rtl:text-right">
+          <div className="absolute top-[25%] z-10 space-y-10 px-5 text-left md:px-8 rtl:text-right">
             <SetInnerHtml
               className="font-kanit mb-4 !text-2xl font-medium !leading-none text-white sm:!text-4xl md:!text-5xl lg:!text-6xl xl:!text-7xl"
               text={homeData?.heading?.[currentLang]}
@@ -64,7 +64,7 @@ export default function HeroSection() {
       )}
 
       <div
-        className="absolute top-[38rem] z-40 mx-auto flex w-full max-w-[1790px] px-3 md:px-10"
+        className="absolute top-[40rem] z-40 mx-auto flex w-full max-w-[1790px] px-3 md:px-10"
         id="learnmore"
       >
         <HomeStatistics />
