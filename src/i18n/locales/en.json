@@ -42,7 +42,8 @@
         "csr": "Corporate Social Responsibility",
         "photoGallery": "Photo Gallery",
         "videoGallery": "Video Gallery",
-        "download_pdf": "Download Pdf"
+        "download_pdf": "Download Pdf",
+        "publication":"Publication"
       }
     },
     "supportServices": {
